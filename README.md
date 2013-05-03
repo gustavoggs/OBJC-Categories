@@ -1,4 +1,4 @@
 OBJC-Categories
 ===============
 
-Objective-c categories that I found
+Objective-c categories that I found useful.
