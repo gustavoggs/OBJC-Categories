@@ -20,3 +20,18 @@ _____
     - (CGFloat) pagesHorizontal;
     - (CGFloat) currentPageVertical;
     - (CGFloat) currentPageHorizontal;
+
+_____
+
+# UIView #
+
+### UIView+frameChanges.h ###
+
+    - (void) frameAddX:(CGFloat)x;
+    - (void) frameAddY:(CGFloat)y;
+    - (void) frameAddWidth:(CGFloat)width;
+    - (void) frameAddHeight:(CGFloat)height;
+    - (void) frameSetX:(CGFloat)x;
+    - (void) frameSetY:(CGFloat)y;
+    - (void) frameSetWidth:(CGFloat)width;
+    - (void) frameSetHeight:(CGFloat)height;
