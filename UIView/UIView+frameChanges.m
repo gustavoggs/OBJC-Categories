@@ -1,9 +1,7 @@
 //
 //  UIView+frameChanges.m
-//  dpmobileipapp
 //
 //  Created by Gustavo Grana on 5/13/13.
-//  Copyright (c) 2013 Conrad Caine. All rights reserved.
 //
 
 #import "UIView+frameChanges.h"
