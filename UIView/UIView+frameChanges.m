@@ -56,5 +56,10 @@
     [self setFrame:frame];
 }
 
+- (void) frameSetOrigin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    [self setFrame:frame];
+}
 
 @end
