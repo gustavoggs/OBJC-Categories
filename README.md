@@ -35,3 +35,4 @@ _____
     - (void) frameSetY:(CGFloat)y;
     - (void) frameSetWidth:(CGFloat)width;
     - (void) frameSetHeight:(CGFloat)height;
+    - (void) frameSetOrigin:(CGPoint)origin;
