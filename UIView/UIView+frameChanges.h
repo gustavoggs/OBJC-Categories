@@ -17,4 +17,6 @@
 - (void) frameSetWidth:(CGFloat)width;
 - (void) frameSetHeight:(CGFloat)height;
 
+- (void) frameSetOrigin:(CGPoint)origin;
+
 @end
