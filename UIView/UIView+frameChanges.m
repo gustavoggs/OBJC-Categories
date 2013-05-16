@@ -62,4 +62,10 @@
     [self setFrame:frame];
 }
 
+- (void) frameSetSize:(CGSize)size {
+    CGRect frame = self.frame;
+    frame.size = size;
+    [self setFrame:frame];
+}
+
 @end
