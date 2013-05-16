@@ -18,5 +18,6 @@
 - (void) frameSetHeight:(CGFloat)height;
 
 - (void) frameSetOrigin:(CGPoint)origin;
+- (void) frameSetSize:(CGSize)size;
 
 @end
