@@ -37,3 +37,25 @@ _____
     - (void) frameSetHeight:(CGFloat)height;
     - (void) frameSetOrigin:(CGPoint)origin;
     - (void) frameSetSize:(CGSize)size;
+
+### UIView+frameChanges.h ###
+
+    - (void) frameAddX:(CGFloat)x;
+    - (void) frameAddY:(CGFloat)y;
+    - (void) frameAddWidth:(CGFloat)width;
+    - (void) frameAddHeight:(CGFloat)height;
+    - (void) frameSetX:(CGFloat)x;
+    - (void) frameSetY:(CGFloat)y;
+    - (void) frameSetWidth:(CGFloat)width;
+    - (void) frameSetHeight:(CGFloat)height;
+    - (void) frameSetOrigin:(CGPoint)origin;
+    - (void) frameSetSize:(CGSize)size;
+    
+### UIView+frameShortcut.h ###
+
+    - (CGFloat) frameX;
+    - (CGFloat) frameY;
+    - (CGFloat) frameWidth;
+    - (CGFloat) frameHeight;
+    - (CGPoint) frameOrigin;
+    - (CGSize) frameSize;
