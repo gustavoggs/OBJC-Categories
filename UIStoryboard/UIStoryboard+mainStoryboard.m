@@ -1,9 +1,7 @@
 //
 //  UIStoryboard+mainStoryboard.m
-//  SAG20130425
 //
 //  Created by Gustavo Grana on 6/24/13.
-//  Copyright (c) 2013 Conrad Caine. All rights reserved.
 //
 
 #import "UIStoryboard+mainStoryboard.h"
