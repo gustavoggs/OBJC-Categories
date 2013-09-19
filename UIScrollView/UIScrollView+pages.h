@@ -12,5 +12,9 @@
 - (CGFloat) pagesHorizontal;
 - (CGFloat) currentPageVertical;
 - (CGFloat) currentPageHorizontal;
+- (void) setPageVertical:(CGFloat)page;
+- (void) setPageHorizontal:(CGFloat)page;
+- (void) setPageVertical:(CGFloat)page animated:(BOOL)animated;
+- (void) setPageHorizontal:(CGFloat)page  animated:(BOOL)animated;
 
 @end
